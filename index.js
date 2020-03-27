@@ -44,6 +44,10 @@ const updateCalculatedBoxes = () => {
 const addEventListener = id => {
     const row = document.getElementById(id);
     const value = row.getElementsByTagName("td")[1];
+    
+    value.addEventListener("touchstart", event => {
+        event.preventDefault();
+    })
     value.addEventListener("mouseenter", () => {
         value.setAttribute("contenteditable", "true");
     });
