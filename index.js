@@ -44,7 +44,7 @@ const updateCalculatedBoxes = () => {
 const addEventListener = id => {
     const row = document.getElementById(id);
     const value = row.getElementsByTagName("td")[1];
-    value.addEventListener("mousedown", () => {
+    value.addEventListener("mouseenter", () => {
         value.setAttribute("contenteditable", "true");
     });
     value.addEventListener("blur", () => {
