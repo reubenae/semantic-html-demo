@@ -1,0 +1,20 @@
+.box-row {
+    width: 700px;
+    height: 40px;
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 5px;
+    float:left;
+    height: 100%;
+}
+.description {
+    width: 520px;
+}
+.value {
+    width: 156px;
+}
+footer {
+    clear: both;
+}

@@ -1,0 +1,27 @@
+.box-row {
+    width: 700px;
+    height: 40px;
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 5px;
+    float:left;
+    height: 100%;
+}
+.description {
+    width: 520px;
+    font-size: 1rem;
+}
+.value {
+    width: 156px;
+    font-size: 1rem;
+}
+input.value {
+    width: 168px;
+    height: 52px;
+    font-size: 1rem;
+}
+footer {
+    clear: both;
+}
